@@ -125,20 +125,70 @@ main{
 
 }
 
+/* regole del footer */
+
 .containernero{
     background-color: rgb(41, 36, 36);
     width: 100%;
-    height: 80vh;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .containernero2{
-    background-color: rgb(173, 11, 11);
+    background-color:rgb(41, 36, 36);
     width: 100%;
-    height: 40vh;
+    height: 13vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.colonnarosa{
+    background-color: rgb(233, 151, 165);
+    border: black solid 2px;
+    width: 37%;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.colonnaazzurra{
+    background-color: rgb(51, 229, 223);
+    border: white solid 2px;
+    width: 13%;
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+hr{
+    font-size: 2px;
+}
+
+.bottonefooter{
+    background-color: gray;
+    border: black solid 2px;
+    width: 10%;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 253px;
+    margin-left: 254px;
+}
+
+.rettangolofooter {
+background-color: rgb(29, 136, 223);
+width: 90%;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
