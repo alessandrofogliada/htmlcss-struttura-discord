@@ -70,6 +70,8 @@ main{
     width: 100%;
 }
 
+/* prima parte main */
+
 .containermainbianco{
     background-color: white;
     width: 100%;
@@ -98,4 +100,45 @@ main{
     justify-content: center;
     align-items: center;
 
+}
+
+/* seconda parte main */
+
+.containergrigio {
+    background-color: grey;
+    width: 100%;
+    height: 107vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rettangoloverde{
+    background-color:rgb(26, 197, 55);
+    border: black solid 2px;
+    width: 90%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.containernero{
+    background-color: rgb(41, 36, 36);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containernero2{
+    background-color: rgb(173, 11, 11);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
