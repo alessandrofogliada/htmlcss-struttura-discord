@@ -6,25 +6,26 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: white;
-}
 
 /* regole header */
 
-
-.primaparteheader{
+.primaparteintestazione{
     background-color: aqua;
     width: 100%;
-    height: 50px;
-}
-    
-.primaparteheader .sfondologin{
-    background-color: yellow;
-    margin: 60px;
+    min-height: 100px;
+    padding: 10px 0;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+}
+
+.sfondologin {
+    background-color: yellow;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .logo {
@@ -48,7 +49,7 @@ body{
 .containerblu{
     background-color: blue;
     width: 100%;
-    height: 60vh;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,8 +58,8 @@ body{
 .rettangolorosso{
     background-color: rgb(237, 71, 101);
     border: black solid 2px;
-    width: 60%;
-    height: 200px;
+    width: 50%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +76,7 @@ main{
 .containermainbianco{
     background-color: white;
     width: 100%;
-    height: 60vh;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,17 +85,18 @@ main{
 .containergrigio{
     background-color: grey;
     width: 100%;
-    height: 60vh;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
 
 }
 .rettangoloblu{
     background-color: rgb(29, 136, 223);
     border: black solid 2px;
-    width: 55%;
-    height: 200px;
+    width: 40%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,8 +105,8 @@ main{
 .rettangolorosa{
     background-color:pink;
     border: black solid 2px;
-    width: 35%;
-    height: 200px;
+    width: 25%;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +118,7 @@ main{
 .containergrigiogrande {
     background-color: grey;
     width: 100%;
-    height: 107vh;
+    min-height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,8 +128,8 @@ main{
 .rettangoloverde{
     background-color:rgb(26, 197, 55);
     border: black solid 2px;
-    width: 90%;
-    height: 400px;
+    width: 65%;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,26 +141,18 @@ main{
 .containernero{
     background-color: rgb(41, 36, 36);
     width: 100%;
-    height: 350px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.containernero2{
-    background-color:rgb(41, 36, 36);
-    width: 100%;
-    height: 13vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .colonnarosa{
     background-color: rgb(233, 151, 165);
     border: black solid 2px;
-    width: 37%;
-    height: 325px;
+    width: 25%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,8 +162,8 @@ main{
 .colonnaazzurra{
     background-color: rgb(51, 229, 223);
     border: white solid 2px;
-    width: 13%;
-    height: 325px;
+    width: 10%;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,6 +175,25 @@ hr{
     font-size: 2px;
 }
 
+.containernero2{
+    background-color:rgb(41, 36, 36);
+    width: 100%;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.rettangolofooter {
+background-color: rgb(29, 136, 223);
+width: 65%;
+min-height: 50px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+}
+
+
 .bottonefooter{
     background-color: gray;
     border: black solid 2px;
@@ -189,15 +202,4 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 253px;
-    margin-left: 254px;
-}
-
-.rettangolofooter {
-background-color: rgb(29, 136, 223);
-width: 90%;
-height: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
 }
